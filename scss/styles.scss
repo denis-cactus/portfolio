@@ -7,9 +7,9 @@
 
 // Базові стилі
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  font-family: $font-family-base, sans-serif;
+  background: $background-color;
+  color: $text-color;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -22,8 +22,14 @@ body {
 
 .header__title {
   font-size: 1.8rem;
+  color: $text-color;
 }
-
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .header__nav ul {
   list-style: none;
   padding: 0;

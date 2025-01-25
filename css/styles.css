@@ -1,0 +1,44 @@
+.header__nav {
+  color: #c7c7c7;
+}
+
+body {
+  font-family: "Manrope", sans-serif, sans-serif;
+  background: #0a0a0a;
+  color: #c7c7c7;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 1.8rem;
+  color: #c7c7c7;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/*# sourceMappingURL=styles.css.map */
